@@ -1,6 +1,6 @@
-require 'omniauth/core'
-require 'omniauth/basic'
-require 'omniauth/oauth'
-require 'omniauth/openid'
-require 'omniauth/enterprise'
+require 'omniauth/oa-core'
+require 'omniauth/oa-basic'
+require 'omniauth/oa-oauth'
+require 'omniauth/oa-openid'
+require 'omniauth/oa-enterprise'
 
