@@ -5,7 +5,7 @@
 # two blocks parallel.
 if Object.const_defined?(:Bundler) && Bundler.const_defined?(:Dsl) && self.kind_of?(Bundler::Dsl)
   group :development do
-    gem 'rack'
+    gem 'rack',      '1.0.1'
     gem 'rake'
     gem 'mg',        '~> 0.0.8'
     gem 'rspec',     '~> 2.0.0'
